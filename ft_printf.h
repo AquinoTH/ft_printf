@@ -6,7 +6,7 @@
 /*   By: taquino- <taquino-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/03 11:07:16 by taquino-          #+#    #+#             */
-/*   Updated: 2024/01/09 18:00:11 by taquino-         ###   ########.fr       */
+/*   Updated: 2024/01/11 18:45:41 by taquino-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ int		ft_putchar(char c);
 int		ft_putstr(char *str);
 int		ft_nbr_base(long long num, char *base);
 int		ft_ptr_base(unsigned long num, char *base);
-int		ft_printf(const char *type, ...);
-int		ft_parsing(char type, va_list ap);
+int		ft_printf(const char *format, ...);
 
 #endif

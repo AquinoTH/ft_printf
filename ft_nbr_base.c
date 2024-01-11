@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
 int	ft_nbr_base(long long num, char *base)
 {
 	int	bytes;

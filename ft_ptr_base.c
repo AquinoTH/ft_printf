@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
 int	ft_ptr_base(unsigned long num, char *base)
 {
 	int	bytes;
